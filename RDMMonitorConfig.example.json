@@ -1,31 +1,31 @@
 {
     "token":"",
 
-    "channel": "channelID",
-    "deviceStatusChannel":"channelID",
-    "instanceStatusChannel":"channelID",
-    "deviceSummaryChannel":"channelID",
-    "deviceDetailedSummaryChannel":"channelID",
-    "questChannel":"channelID",
+    "channel": "",
+    "deviceStatusChannel":"",
+    "instanceStatusChannel":"",
+    "deviceSummaryChannel":"",
+    "deviceDetailedSummaryChannel":"",
+    "questChannel":"",
 
     "userAlerts": [],
 
     "url":"https://ip:9000/",
-    "websiteLogin": "user",
-    "websitePassword": "password",
+    "websiteLogin": "",
+    "websitePassword": "",
 
     "postIndividualDevices":true,
-    "postInstanceStatus":true,
-    "postDeviceSummary":true,
-    "postDeviceDetailedSummary":true,
-    "postQuestSummary":true,
+    "postInstanceStatus":false,
+    "postDeviceSummary":false,
+    "postDeviceDetailedSummary":false,
+    "postQuestSummary":false,
 
-    "showInstance": true,
-    "showAccount": true,
-    "showHost": true,
+    "showInstance": false,
+    "showAccount": false,
+    "showHost": false,
     "showLastSeen": true,
-    "showBuildCount": true,
-    "showOnlineTime": true,
+    "showBuildCount": false,
+    "showOnlineTime": false,
 
     "clearMessagesOnStartup": true,
 
@@ -33,25 +33,25 @@
     "ignoredInstances": [],
     "ignoredQuestInstances": [],
 
-    "postingDelay":1,
+    "postingDelay":5,
 
-    "warningTime": 10,
+    "warningTime": 5,
     "offlineTime": 15,
     "rebuildTime": 0.25,
 
     "queueLimit": 5,
 
-    "allowReopenGame": true,
+    "allowReopenGame": false,
     "reopenTime": 5,
     "reopenMonitorURL": ["http://192.168.0.1:6542","http://192.168.0.1:6543"],
     "excludeFromReopen": ["Device01","Device02"],
 
-    "allowReapplySAM": true,
+    "allowReapplySAM": false,
     "reapplySAMTime": 7,
     "reapplySAMMonitorURL": ["http://192.168.0.1:6542","http://192.168.0.1:6543"],
     "excludeFromReapplySAM": ["Device01","Device02"],
 
-    "allowWarnReboots": true,
+    "allowWarnReboots": false,
     "rebootAgainTimer": 5,
     "maxRebootRetries": 10,
     "rebootMonitorURL": ["http://192.168.0.1:6542","http://192.168.0.1:6543"],
@@ -61,5 +61,5 @@
     "brightnessMonitorURL": ["http://192.168.0.1:6542","http://192.168.0.1:6543"],
 
     "cmdPrefix": ".",
-    "adminRoleName": "ADMIN-ROLE-NAME"
+    "adminRoleName": ""
 }
